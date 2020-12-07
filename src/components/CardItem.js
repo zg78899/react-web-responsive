@@ -9,9 +9,8 @@ function CardItem(props) {
           <figure className="cards_item__pic-wrap" data-category={props.label}>
             <img
               className="cards__item__img"
-              // src={props.src}
-              src="../images/img-9.jpg"
-              alt="Travel adventure"
+              alt="Travel images"
+              src={`${props.src}`}
             />
           </figure>
           <div className="cards__item__info">
